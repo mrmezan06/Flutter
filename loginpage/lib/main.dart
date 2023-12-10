@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:loginpage/pages/home_page.dart';
 // import 'package:loginpage/pages/login_page.dart';
-import 'package:loginpage/pages/my_login.dart';
+// import 'package:loginpage/pages/my_login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     //return GetMaterialApp(debugShowCheckedModeBanner: false, home: LoginPage());
     return const GetMaterialApp(
-        debugShowCheckedModeBanner: false, home: MyLogin());
+        debugShowCheckedModeBanner: false, home: HomePage());
   }
 }
